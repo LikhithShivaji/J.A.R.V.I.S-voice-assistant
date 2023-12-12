@@ -1,0 +1,256 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":[
+                "hello","hi","hey","wake up","Jarvis"
+            ],
+            "responses":[
+                "Hello Sir","At your service sir","Hope you need my help sir!?"
+            ]
+        },
+        {
+            "tag":"breakup",
+            "patterns":[
+                "bye","goodbye","see you later","exit","stop"
+            ],
+            "responses":[
+                "bye","good bye sir","see you sir!","hope you will have a wonderful day"
+            ]
+        },
+        {
+            "tag":"health",
+            "patterns":[
+                "how are you","are you fine"
+            ],
+            "responses":[
+                "perfect sir!","I'm fine sir! Hope you too are fine sir!?","I'm fine"
+            ]
+        },
+        {
+            "tag":"identity",
+            "patterns":[
+                "who are you","your name"
+            ],
+            "responses":[
+                "I'm Jarvis sir!","My name is Jarvis sir!"
+            ]
+        },
+        {
+            "tag":"personal",
+            "patterns":[
+                "what can you do"
+            ],
+            "responses":[
+                "I can perform any tasks you want sir"
+            ]
+        },
+        {
+            "tag":"time",
+            "patterns":[
+                "jarvis time","what's the time","time"
+            ],
+            "responses":[
+                "time"
+            ]
+        },
+        {
+            "tag":"date",
+            "patterns":[
+                "say me the date","date"
+            ],
+            "responses":[
+                "date"
+            ]
+        },
+        {
+            "tag":"day",
+            "patterns":[
+                "today","day"
+            ],
+            "responses":[
+                "day"
+            ]
+        },
+        {
+            "tag":"wikipedia",
+            "patterns":[
+                "who is","about","information","wikipedia"
+            ],
+            "responses":[
+                "wikipedia"
+            ]
+        },
+        {
+            "tag":"google",
+            "patterns":[
+                "google search","google","search","fetch me"
+            ],
+            "responses":[
+                "google"
+            ]
+        },
+        {
+            "tag":"news",
+            "patterns":[
+                "today's news","news","something with my morning coffee"
+            ],
+            "responses":[
+                "news"
+            ]
+        },
+        {
+            "tag":"calculate",
+            "patterns":[
+                "calculate the number","add","multiply","subtract","divide","calculate"
+            ],
+            "responses":[
+                "calculate"
+            ]
+        },
+        {
+            "tag":"song",
+            "patterns":[
+                "play me a song","music","I'm feeling bored","cheer me up","trailer"
+            ],
+            "responses":[
+                "song"
+            ]
+        },
+        {
+            "tag":"temperature",
+            "patterns":[
+                "today's temperature","what is the temperature"
+            ],
+            "responses":[
+                "temperature"
+            ]
+        },
+        {
+            "tag":"weather",
+            "patterns":[
+                "weather outside","can I go outside"
+            ],
+            "responses":[
+                "weather"
+            ]
+        },
+        {
+            "tag":"light",
+            "patterns":[
+                "turn","switch","light"
+            ],
+            "responses":[
+                "light"
+            ]
+        },
+        {
+            "tag":"fan",
+            "patterns":[
+                "toasty room","stop fan","rotate fan","start","fan"
+            ],
+            "responses":[
+                "fan"
+            ]
+        },
+        {
+            "tag":"shutdown",
+            "patterns":[
+                "shutdown","system"
+            ],
+            "responses":[
+                "shutdown"
+            ]
+        },
+        {
+            "tag":"remember that",
+            "patterns":[
+                "take","make","note of","remember that"
+            ],
+            "responses":[
+                "remember that"
+            ]
+        },
+        {
+            "tag":"what do you remember",
+            "patterns":[
+                "check your memory","what do you remember"
+            ],
+            "responses":[
+                "what do you remember"
+            ]
+        },
+        {
+            "tag":"pause",
+            "patterns":[
+                "pause","pause video"
+            ],
+            "responses":[
+                "pause"
+            ]
+        },
+        {
+            "tag":"play",
+            "patterns":[
+                "play","play video"
+            ],
+            "responses":[
+                "play"
+            ]
+        },
+        {
+            "tag":"mute",
+            "patterns":[
+                "mute video","mute","unmute"
+            ],
+            "responses":[
+                "mute"
+            ]
+        },
+        {
+            "tag":"screenshot",
+            "patterns":[
+                "snap","shot","capture","screenshot"
+            ],
+            "responses":[
+                "screenshot"
+            ]
+        },
+        {
+            "tag":"open",
+            "patterns":[
+                "open","application"
+            ],
+            "responses":[
+                "open"
+            ]
+        },
+        {
+            "tag":"translate",
+            "patterns":[
+                "translate","word","meaning"
+            ],
+            "responses":[
+                "translate"
+            ]
+        },
+        {
+            "tag":"volume up",
+            "patterns":[
+                "volume","up","increase"
+            ],
+            "responses":[
+                "volume up"
+            ]
+        },
+        {
+            "tag":"volume down",
+            "patterns":[
+                "volume","decrease","turn down"
+            ],
+            "responses":[
+                "volume down"
+            ]
+        }
+    ]
+}

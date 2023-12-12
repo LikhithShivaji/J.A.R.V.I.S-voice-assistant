@@ -1,0 +1,36 @@
+    elif "schedule my day" in tag:
+        tasks = [] #Empty list 
+        Say("Do you want to clear old tasks (Plz speak YES or NO)")
+        confirm = Listen().lower()
+        if "yes" in confirm:
+            file = open("tasks.txt","w")
+            file.write(f"")
+            file.close()
+            Say("What is the number of tasks you want to enter sir? ")
+            no_tasks = int(Listen())
+            i = 0
+            for i in range(no_tasks):
+                Say("Please tell me the tasks one by one sir!")
+                tasks.append(Listen())
+                file = open("tasks.txt","a")
+                file.write(f"{i}. {tasks[i]}\n")
+                file.close()
+        elif "no" in confirm:
+            i = 0
+            no_tasks = int(input("Enter the no. of tasks :- "))
+            for i in range(no_tasks):
+                tasks.append(input("Enter the task :- "))
+                file = open("tasks.txt","a")
+                file.write(f"{i}. {tasks[i]}\n")
+                file.close()
+
+        ,
+        {
+            "tag":"schedule tasks",
+            "patterns":[
+                "prepare","schedule","task","tasks"
+            ],
+            "responses":[
+                "schedule tasks"
+            ]
+        }
